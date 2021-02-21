@@ -1,12 +1,12 @@
 // Font
-$font-family: "Press Start 2P" !default;
+$font-family: "Eightbit Atari" !default;
 $font-size: 16px !default;
 
 $base-color: $color-black !default;
 $background-color: $color-white !default;
 
-$cursor-url: url(get-file-as-data-uri("../assets/cursor.png")) !default;
-$cursor-click-url: url(get-file-as-data-uri("../assets/cursor-click.png")) 14 0 !default;
+$cursor-url: url(get-file-as-data-uri("../assets/gauntlet.png")) !default;
+$cursor-click-url: $cursor-url; // url(get-file-as-data-uri("../assets/cursor-click.png")) 14 0 !default;
 
 $border-size: 4px !default;
 
@@ -20,22 +20,22 @@ $disabled-colors: (
   shadow: #adafbc
 ) !default;
 $primary-colors: (
-  normal: #209cee,
-  hover: #108de0,
-  shadow: #006bb3
+  normal: #599eff,
+  hover: #488dee,
+  shadow: #1b61c1
 ) !default;
 $success-colors: (
-  normal: #92cc41,
-  hover: #76c442,
-  shadow: #4aa52e
+  normal: #91e734,
+  hover: #80d624,
+  shadow: #439900
 ) !default;
 $warning-colors: (
-  normal: #f7d51d,
-  hover: #f2c409,
-  shadow: #e59400
+  normal: #efd043,
+  hover: #dfc033,
+  shadow: #a98a00
 ) !default;
 $error-colors: (
-  normal: #e76e55,
-  hover: #ce372b,
-  shadow: #8c2022
+  normal: #e07b51,
+  hover: #cf6a40,
+  shadow: #a23e13
 ) !default;
